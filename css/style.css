@@ -1,0 +1,819 @@
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(241, 250, 238) !important;
+}
+
+/* navbar css starts here */
+nav {
+    background-color: rgb(230, 57, 70);
+    padding: 5px 40px !important;
+}
+
+.logo {
+    font-family: 'Rock Salt', cursive !important;
+    color: white !important;
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+.navbar-light .navbar-toggler {
+    background-color: white;
+}
+
+.container-fluid {
+    padding: 0px !important;
+}
+
+li {
+    margin-left: 20px;
+}
+
+li a {
+    color: white !important;
+    padding: 0px !important;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+li a:hover {
+    color: #E5E5E5;
+}
+
+/* navbar css ends here */
+
+/* popcorn section css starts here */
+.products {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+
+.products .product-detail {
+    width: 50%;
+    padding-left: 40px;
+}
+
+.products .product-detail p {
+    padding: 20px 0px;
+    color: #525252;
+}
+
+.products .product-detail h1 {
+    color: #004470;
+    font-size: 40px;
+    text-shadow: 0px 0px 25px rgba(68, 122, 156, 0.30);
+}
+
+.products .product-image img {
+    width: 300px;
+    border-radius: 50%;
+    height: 300px;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.30);
+}
+
+.product-image {
+    padding-right: 40px;
+    width: 50%;
+    text-align: right;
+}
+
+.order-btn {
+    color: #E63946;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: 2px solid #E63946;
+    border-radius: 7px;
+    background-color: #F1FAEE;
+    transition: 0.3s;
+}
+
+.order-btn:hover {
+    color: white;
+    background-color: #E63946;
+}
+
+/* popcorn section css ends here */
+
+/* Almond section css stars here */
+#almond {
+    position: relative;
+}
+
+.almonds-background {
+    margin-top: 25px;
+    clip-path: polygon(0% 30%, 100% 0%, 100% 70%, 0% 100%);
+    background-color: #A8DADC;
+    width: 100%;
+    height: 250px;
+    position: absolute;
+    z-index: -1;
+}
+
+.products .almond-detail {
+    width: 50%;
+    padding-right: 40px;
+    text-align: right;
+}
+
+.products .almond-detail p {
+    padding: 20px 0px;
+    color: #525252;
+}
+
+.products .almond-detail h1 {
+    color: #004470;
+    font-size: 40px;
+    text-shadow: 0px 0px 25px rgba(68, 122, 156, 0.30);
+}
+
+.products .almond-image img {
+    width: 300px;
+    border-radius: 50%;
+    height: 300px;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.30);
+}
+
+.almond-image {
+    padding-left: 40px;
+    width: 50%;
+    text-align: left;
+}
+
+/* Almond section css ends here */
+
+/* chips section css starts here */
+#chips {
+    position: relative;
+}
+
+.chips-background {
+    margin-top: 20px;
+    clip-path: polygon(0% 30%, 100% 0%, 100% 70%, 0% 100%);
+    background-color: rgba(230, 57, 70, 0.5);
+    width: 100%;
+    height: 250px;
+    position: absolute;
+    z-index: -1;
+}
+
+/* chips section css ends here */
+
+/* all products section css starts here */
+.all-products {
+    background-color: rgba(230, 57, 70, 0.7);
+    margin-top: 100px;
+    padding-bottom: 30px;
+}
+
+.all-products h1 {
+    color: #FFFFFF;
+    font-size: 35px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.all-products-images {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+}
+
+.all-products-images img {
+    height: 150px;
+    width: 150px;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, .5);
+}
+
+.popcorn-image,
+.almonds-image,
+.chips-image {
+    text-align: center;
+}
+
+.popcorn-image p,
+.almonds-image p,
+.chips-image p {
+    color: #F1FAEE;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 10px 0px;
+    margin-bottom: 15px;
+}
+
+.popcorn-image a,
+.almonds-image a,
+.chips-image a {
+    text-align: center;
+    font-weight: bold;
+    color: #F1FAEE;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    border: 2px solid #F1FAEE;
+    border-radius: 7px;
+    background-color: rgba(230, 57, 70, 0.05);
+    transition: 0.3s;
+}
+
+.popcorn-image a:hover,
+.almonds-image a:hover,
+.chips-image a:hover {
+    color: rgba(230, 57, 70, 0.7);
+    background-color: #F1FAEE;
+}
+
+/* all products section css ends here */
+
+/* about us section css starts here */
+.about-us {
+    background-image: linear-gradient(to right, rgba(69, 123, 157, 1),
+        rgba(73, 170, 127, 1));
+    margin-top: 25px;
+    padding-bottom: 30px;
+}
+
+.about-us h1 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 35px;
+    color: #1D3557;
+    padding-top: 15px;
+}
+
+.about-us-div {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+}
+
+.about-us-div .left-div {
+    width: 50%;
+    text-align: left;
+    padding-left: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.about-us-div .left-div p {
+    color: rgba(241, 250, 238, 0.9);
+}
+
+.social-icons img {
+    width: 50px;
+    height: 50px;
+    filter: invert(100%);
+    margin-right: 20px;
+}
+
+.about-us-div .right-div {
+    width: 50%;
+    text-align: right;
+    padding-right: 40px;
+}
+
+.right-div img {
+    width: 250px;
+    height: 250px;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, .5);
+}
+
+/* about us section css ends here */
+
+/* contact us section css starts here */
+.contact-us {
+    text-align: center;
+    background-image: linear-gradient(to right, rgba(29, 53, 87, 0.75),
+        rgba(230, 57, 70, 0.75));
+    margin-top: 25px;
+    padding-bottom: 30px;
+}
+
+.contact-us-div h1 {
+    text-align: center;
+    padding-top: 15px;
+    font-size: 35px;
+    color: white;
+}
+
+.contact-us-div p {
+    padding-bottom: 15px;
+    font-size: 17px;
+}
+
+.contact-us-div form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form input,
+form .feedback {
+    width: 250px;
+    margin-bottom: 10px;
+    padding: 10px 10px;
+    border-radius: 7px;
+    background: rgba(0, 0, 0, 0.3);
+    border: none;
+    outline: none;
+    color: white;
+}
+
+form .feedback {
+    resize: vertical;
+}
+
+::placeholder {
+    color: rgba(0, 0, 0, 0.7);
+    font-weight: 600;
+}
+
+.form-btn {
+    margin-top: 10px;
+    color: #1D3557;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 10px 20px;
+    border: 2px solid #457B9D;
+    border-radius: 7px;
+    background: rgba(69, 123, 157, 0.3);
+    transition: .3s;
+}
+
+.form-btn:hover {
+    color: white;
+    background: #457B9D;
+}
+
+.horizontal-line {
+    background-color: rgba(0, 0, 0, 0.1);
+    width: 70%;
+    height: 10px;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+}
+
+.address-div h1 {
+    color: #48C7A8;
+    font-size: 30px;
+}
+
+.address-div p {
+    font-weight: 500;
+    color: white;
+    line-height: 2;
+    width: max-content;
+    margin: 10px auto 0px;
+    text-align: left;
+}
+
+/* contact us section css ends here */
+
+/* footer section css starts here */
+.footer-section {
+    margin-top: 25px;
+    background-color: #E63946;
+}
+
+.footer-divider {
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 1px;
+    width: 30%;
+    margin: auto;
+}
+
+#copyright {
+    padding: 5px 0px;
+    text-align: center;
+    color: white;
+    margin-bottom: 0px;
+}
+
+/* footer section css ends here */
+
+/* media Queries starts here */
+@media (max-width: 800px) {
+
+    /* navbar media queries starts here */
+    nav {
+        padding: 5px 30px !important;
+    }
+
+    .logo {
+        font-weight: 100;
+        font-size: 20px;
+    }
+
+    li {
+        display: inline-flex;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+
+    li a {
+        font-size: 14px;
+
+    }
+
+    /* navbar media queries ends here */
+
+    /* products media queries starts here */
+    .products {
+        padding-top: 25px;
+    }
+
+    .products .product-detail {
+        padding: 0px 20px 0px 30px;
+        text-align: left;
+    }
+
+    .products .product-detail h1 {
+        font-size: 30px;
+    }
+
+    .products .product-detail p {
+        padding: 15px 0px;
+    }
+
+    .order-btn {
+        padding: 5px 10px;
+    }
+
+    .product-image {
+        padding-right: 30px;
+    }
+
+    .products .product-image img {
+        height: 220px;
+        width: 220px;
+    }
+
+    /* products media queries ends here */
+
+    /* almond section media queries starts here */
+    .almond-image {
+        padding-left: 30px;
+    }
+
+    .products .almond-image img {
+        height: 220px;
+        width: 220px;
+    }
+
+    .products .almond-detail {
+        padding: 0px 30px 0px 20px;
+        text-align: right;
+    }
+
+    .products .almond-detail h1 {
+        font-size: 30px;
+    }
+
+    .products .almond-detail p {
+        padding: 15px 0px;
+    }
+
+    /* almond section media queries ends here */
+
+    /* all products section media queries starts here */
+    .all-products {
+        margin-top: 50px;
+    }
+
+    .all-products h1 {
+        font-size: 30px;
+        padding-top: 5px;
+    }
+
+    .all-products-images {
+        padding-top: 13px;
+    }
+
+    .popcorn-image p,
+    .almonds-image p,
+    .chips-image p {
+        font-size: 18px;
+        padding: 7px 0px;
+        margin-bottom: 12px;
+    }
+
+    .popcorn-image a,
+    .almonds-image a,
+    .chips-image a {
+        padding: 7px 14px;
+    }
+
+    /* all products section media queries ends here */
+
+    /* about us section media queries starts here */
+    .about-us {
+        margin-top: 15px;
+    }
+
+    .about-us h1 {
+        font-size: 30px;
+        padding-top: 5px;
+    }
+
+    .about-us-div {
+        padding-top: 13px;
+    }
+
+    .about-us-div .left-div {
+        padding-left: 30px;
+    }
+
+    .about-us-div .right-div {
+        padding-right: 30px;
+    }
+
+    .about-us-div .right-div img {
+        height: 220px;
+        width: 220px;
+    }
+
+    .social-icons img {
+        width: 47px;
+        height: 47px;
+        margin-right: 15px;
+    }
+
+    /* about us section media queries ends here */
+
+    /* contact us section media queries starts here */
+    .contact-us {
+        margin-top: 15px;
+    }
+
+    .contact-us-div h1 {
+        font-size: 30px;
+        padding-top: 5px;
+    }
+
+    .contact-us-div p {
+        padding-bottom: 5px;
+        font-size: 16px;
+    }
+
+    form input,
+    form .feedback {
+        width: 220px;
+        margin-bottom: 8px;
+        padding: 7px 10px;
+    }
+
+    .form-btn {
+        padding: 7px 15px;
+    }
+
+    .horizontal-line {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .address-div h1 {
+        font-size: 27px;
+    }
+
+    .address-div p {
+        margin-top: 5px;
+    }
+
+    /* contact us section media queries ends here */
+
+    /* footer section media queries starts here */
+    .footer-section {
+        margin-top: 15px;
+    }
+
+    /* footer section media queries ends here */
+
+    @media (max-width: 500px) {
+
+        /* popcorn media queries starts here */
+        .products {
+            flex-direction: column-reverse;
+        }
+
+        .products .product-image {
+            width: 100%;
+            text-align: center;
+            padding: 0px;
+        }
+
+        .products .product-image img {
+            height: 212px;
+            width: 212px;
+        }
+
+        .products .product-detail {
+            padding: 0px 30px;
+            width: 100%;
+            text-align: center;
+        }
+
+        .products .product-detail h1 {
+            text-align: center;
+            margin: 10px 0px;
+        }
+
+        .products .product-detail p {
+            text-align: justify;
+            padding: 0px;
+        }
+
+        .order-btn {
+            padding: 5px 10px;
+        }
+
+        /* popcorn media queries ends here */
+
+        /* almond media queries starts here */
+        .almonds-background {
+            height: 335px !important;
+            margin-top: 65px;
+        }
+
+        #almond {
+            flex-direction: column;
+        }
+
+        .products .almond-image {
+            width: 100%;
+            text-align: center;
+            padding: 0px;
+        }
+
+        .products .almond-image img {
+            height: 212px;
+            width: 212px;
+        }
+
+        .products .almond-detail {
+            padding: 0px 30px;
+            width: 100%;
+            text-align: center;
+        }
+
+        .products .almond-detail h1 {
+            text-align: center;
+            margin: 10px 0px;
+        }
+
+        .products .almond-detail p {
+            text-align: justify;
+            padding: 0px;
+        }
+
+        /* almond media queries ends here */
+
+        /* chips media queries starts here */
+        .chips-background {
+            height: 335px;
+            margin-bottom: 66px;
+        }
+
+        /* chips media queries ends here */
+
+        /* all products media queries starts here */
+        .all-products {
+            margin-top: 35px;
+            padding-bottom: 15px;
+        }
+
+        .all-products h1 {
+            margin-bottom: 0px;
+        }
+
+        .all-products-images {
+            flex-direction: column;
+            padding: 0px;
+        }
+
+        .all-products-images img {
+            height: 200px;
+            width: 200px;
+        }
+
+        .popcorn-image p,
+        .almonds-image p,
+        .chips-image p {
+            margin-bottom: 10px;
+        }
+
+        .popcorn-image,
+        .almonds-image,
+        .chips-image {
+            padding: 20px 0px;
+        }
+
+        /* all products media queries ends here */
+
+        /* about us media queries starts here */
+        .about-us {
+            padding-bottom: 15px;
+        }
+
+        .about-us h1 {
+            margin-bottom: 0px;
+        }
+
+        .about-us-div {
+            flex-direction: column-reverse;
+            align-items: center;
+        }
+
+        .about-us-div .right-div {
+            padding: 0px;
+            width: auto;
+        }
+
+        .right-div img {
+            height: 200px;
+            width: 200px;
+        }
+
+        .about-us-div .left-div {
+            width: 100%;
+            padding: 0px 30px;
+        }
+
+        .about-us-div .left-div p {
+            padding: 15px 0px;
+            margin-bottom: 0px;
+            text-align: justify;
+        }
+
+        .social-icons {
+            display: flex;
+            justify-content: center;
+        }
+
+        .social-icons img {
+            width: 50px;
+            height: 50px;
+            margin-right: 20px;
+        }
+
+        /* about us media queries ends here */
+
+        /* contact us media queries starts here */
+        .contact-us {
+            padding-bottom: 15px;
+        }
+
+        .contact-us h1 {
+            margin: 0%;
+        }
+
+        .contact-us-div p {
+            margin-bottom: 0px;
+            padding: 10px 5px;
+        }
+
+        .contact-us-div {
+            margin-bottom: 20px;
+        }
+
+        .address-div {
+            margin-top: 20px;
+        }
+
+        /* contact us media queries ends here */
+    }
+
+    @media (max-width: 320px) {
+        .almonds-background {
+            height: 400px !important;
+        }
+
+        .chips-background {
+            height: 400px;
+            margin-bottom: 73px;
+        }
+    }
+
+    @media (max-width:375px) {
+        .almonds-background {
+            margin-top: 90px;
+        }
+    }
+}
+
+/* media Queries ends here */
